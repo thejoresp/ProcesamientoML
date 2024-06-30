@@ -3,9 +3,9 @@ En base al dataset proporcionado que contiene la siguiente información:
 Información completa sobre 2,392 estudiantes de secundaria, que detalla sus datos demográficos, hábitos de estudio, participación de los padres, actividades extracurriculares y rendimiento académico. La variable objetivo, “GradeClass”, clasifica las calificaciones de los estudiantes en categorías distintas, proporcionando un conjunto de datos sólido para la investigación educativa, la modelización predictiva y el análisis estadístico.
 ## Tabla de contenidos
 1. Student Information
-  • Student ID
-  • Demographic Details
-  • Study Habits
+ • Student ID
+ • Demographic Details
+ • Study Habits
 2. Parental Involvement
 3. Extracurricular Activities
 4. Academic Performance
@@ -17,42 +17,41 @@ Información completa sobre 2,392 estudiantes de secundaria, que detalla sus dat
 • Age
 • Gender: Género de los estudiantes, donde 0 representa Masculino y 1 representa Femenino.
 • Ethnicity: 
-  • 0: Caucasian
-  • 1: African American
-  • 2: Asian
-  • 3: Other
+ • 0: Caucasian
+ • 1: African American
+ • 2: Asian
+ • 3: Other
 • ParentalEducation: nivel de educación de los padres:
-  • 0: None
-  • 1: High School
-  • 2: Some College
-  • 3: Bachelor's
-  • 4: Higher
+ • 0: None
+ • 1: High School
+ • 2: Some College
+ • 3: Bachelor's
+ • 4: Higher
 ### Study Habits
-  • StudyTimeWeekly: Tiempo de estudio semanal en horas, que varía de 0 a 20..
-  • Absences: Número de ausencias durante el año escolar, que varía de 0 a 30.
-  • Tutoring: Estado de tutoría, donde 0 indica No y 1 indica Sí.
+ • StudyTimeWeekly: Tiempo de estudio semanal en horas, que varía de 0 a 20..
+ • Absences: Número de ausencias durante el año escolar, que varía de 0 a 30.
+ • Tutoring: Estado de tutoría, donde 0 indica No y 1 indica Sí.
 ### Parental Involvement
-  • ParentalSupport:
-  • 0: None 
-  • 1: Low
-  • 2: Moderate
-  • 3: High
-  • 4: Very High
+ • ParentalSupport:
+ • 0: None 
+ • 1: Low
+ • 2: Moderate
+ • 3: High
+ • 4: Very High
 ### Extracurricular Activities
-  • Extracurricular: Participación en actividades extracurriculares, donde 0 indica No y 1 indica Sí.
-  • Sports: Participación en deportes, donde 0 indica No y 1 indica Sí.
-  • Music: Participación en actividades musicales, donde 0 indica No y 1 indica Sí.
-  • Volunteering: Participación en voluntariado, donde 0 indica No y 1 indica Sí.
+ • Extracurricular: Participación en actividades extracurriculares, donde 0 indica No y 1 indica Sí.
+ • Sports: Participación en deportes, donde 0 indica No y 1 indica Sí.
+ • Music: Participación en actividades musicales, donde 0 indica No y 1 indica Sí.
+ • Volunteering: Participación en voluntariado, donde 0 indica No y 1 indica Sí.
 ### Academic Performance
-  • GPA: Promedio de calificaciones en una escala de 2.0 a 4.0, influenciado por hábitos de estudio, participación de los padres y actividades extracurriculares.
+ • GPA: Promedio de calificaciones en una escala de 2.0 a 4.0, influenciado por hábitos de estudio, participación de los padres y actividades extracurriculares.
 ### Target Variable: Grade Class
 GradeClass: Clasificación de las calificaciones de los estudiantes basada en el GPA:
-  • 0: 'A' (GPA >= 3.5)
-  • 1: 'B' (3.0 <= GPA < 3.5)
-  • 2: 'C' (2.5 <= GPA < 3.0)
-  • 3: 'D' (2.0 <= GPA < 2.5)
-  • 4: 'F' (GPA < 2.0)
-
+ • 0: 'A' (GPA >= 3.5)
+ • 1: 'B' (3.0 <= GPA < 3.5)
+ • 2: 'C' (2.5 <= GPA < 3.0)
+ • 3: 'D' (2.0 <= GPA < 2.5)
+ • 4: 'F' (GPA < 2.0)
 ## Objetivo del trabajo:
 Entrenar un modelo de aprendizaje automático Naive Bayes utilizando las variables de este dataset capaz de predecir el grado al cual hipotéticamente un alumno debería pertenecer.
 Para ello deberán seguir los siguientes pasos:
