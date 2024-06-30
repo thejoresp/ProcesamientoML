@@ -3,9 +3,9 @@ En base al dataset proporcionado que contiene la siguiente información:
 Información completa sobre 2,392 estudiantes de secundaria, que detalla sus datos demográficos, hábitos de estudio, participación de los padres, actividades extracurriculares y rendimiento académico. La variable objetivo, “GradeClass”, clasifica las calificaciones de los estudiantes en categorías distintas, proporcionando un conjunto de datos sólido para la investigación educativa, la modelización predictiva y el análisis estadístico.
 ## Tabla de contenidos
 1. Student Information
- • Student ID
- • Demographic Details
- • Study Habits
+ * Student ID
+ * Demographic Details
+ * Study Habits
 2. Parental Involvement
 3. Extracurricular Activities
 4. Academic Performance
